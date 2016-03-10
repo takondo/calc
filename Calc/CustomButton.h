@@ -8,6 +8,14 @@
 
 #import <UIKit/UIKit.h>
 
+IB_DESIGNABLE
 @interface CustomButton : UIButton
+
+@property (nonatomic) IBInspectable UIColor *borderColor;
+@property (nonatomic) IBInspectable CGFloat borderWidth;
+@property (nonatomic) IBInspectable CGFloat borderRadius;
+
+@property (nonatomic) IBInspectable UIColor *backgroundColorNormal;
+@property (nonatomic) IBInspectable UIColor *backgroundColorHighlited;
 
 @end

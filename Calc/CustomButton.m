@@ -10,12 +10,24 @@
 
 @implementation CustomButton
 
-/*
-// Only override drawRect: if you perform custom drawing.
-// An empty implementation adversely affects performance during animation.
-- (void)drawRect:(CGRect)rect {
-    // Drawing code
+- (void)drawRect:(CGRect)rect
+{
+    self.layer.borderColor = self.borderColor.CGColor;
+    self.layer.borderWidth = self.borderWidth;
+    self.layer.cornerRadius = self.borderRadius;
+    
+    [super drawRect:rect];
 }
-*/
+
+- (void)setHighlighted:(BOOL)highlighted
+{
+    [super setHighlighted:highlighted];
+    
+    if(highlighted){
+        self.layer.backgroundColor = self.backgroundColorHighlited.CGColor;
+    }else{
+        self.layer.backgroundColor = self.backgroundColorNormal.CGColor;
+    }
+}
 
 @end

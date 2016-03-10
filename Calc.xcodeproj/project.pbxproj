@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		FE69331C1C8D6B0800CBAFD4 /* CustomButton.m in Sources */ = {isa = PBXBuildFile; fileRef = FE69331B1C8D6B0800CBAFD4 /* CustomButton.m */; };
 		FE86E32B1C896F7900B5207B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FE86E32A1C896F7900B5207B /* main.m */; };
 		FE86E32E1C896F7900B5207B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FE86E32D1C896F7900B5207B /* AppDelegate.m */; };
 		FE86E3311C896F7900B5207B /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FE86E3301C896F7900B5207B /* ViewController.m */; };
@@ -17,6 +18,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		FE69331A1C8D6B0800CBAFD4 /* CustomButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomButton.h; sourceTree = "<group>"; };
+		FE69331B1C8D6B0800CBAFD4 /* CustomButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomButton.m; sourceTree = "<group>"; };
 		FE86E3261C896F7900B5207B /* Calc.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Calc.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FE86E32A1C896F7900B5207B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		FE86E32C1C896F7900B5207B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -62,14 +65,16 @@
 			children = (
 				FE86E32C1C896F7900B5207B /* AppDelegate.h */,
 				FE86E32D1C896F7900B5207B /* AppDelegate.m */,
+				FE86E3381C896F7900B5207B /* Assets.xcassets */,
+				FE86E3351C896F7900B5207B /* Calc.xcdatamodeld */,
+				FE69331A1C8D6B0800CBAFD4 /* CustomButton.h */,
+				FE69331B1C8D6B0800CBAFD4 /* CustomButton.m */,
+				FE86E33D1C896F7900B5207B /* Info.plist */,
+				FE86E33A1C896F7900B5207B /* LaunchScreen.storyboard */,
+				FE86E3321C896F7900B5207B /* Main.storyboard */,
+				FE86E3291C896F7900B5207B /* Supporting Files */,
 				FE86E32F1C896F7900B5207B /* ViewController.h */,
 				FE86E3301C896F7900B5207B /* ViewController.m */,
-				FE86E3321C896F7900B5207B /* Main.storyboard */,
-				FE86E3381C896F7900B5207B /* Assets.xcassets */,
-				FE86E33A1C896F7900B5207B /* LaunchScreen.storyboard */,
-				FE86E33D1C896F7900B5207B /* Info.plist */,
-				FE86E3351C896F7900B5207B /* Calc.xcdatamodeld */,
-				FE86E3291C896F7900B5207B /* Supporting Files */,
 			);
 			path = Calc;
 			sourceTree = "<group>";
@@ -154,6 +159,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				FE86E3371C896F7900B5207B /* Calc.xcdatamodeld in Sources */,
+				FE69331C1C8D6B0800CBAFD4 /* CustomButton.m in Sources */,
 				FE86E3311C896F7900B5207B /* ViewController.m in Sources */,
 				FE86E32E1C896F7900B5207B /* AppDelegate.m in Sources */,
 				FE86E32B1C896F7900B5207B /* main.m in Sources */,
@@ -303,6 +309,7 @@
 				FE86E3421C896F7900B5207B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
